@@ -1,3 +1,10 @@
+/*Comp229-020
+Assignment 1
+Date: Sep 28, 2023
+Student name: Wing Sau Chun
+Student ID: 301299037
+*/
+
 html, body {
     background: rgb(145, 163, 218);
 }
@@ -14,4 +21,10 @@ h2 {
 }
 .form-container {
     padding-bottom: 100px;
-  }
+}
+.contact-info {
+    padding: 20px;
+    border: 1px solid black;
+  
+}
+ 
