@@ -1,0 +1,46 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+   
+
+<main class="container">
+  <link rel="stylesheet" href="/Content/style.css"/>
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to <%= title %> page</h1>
+     <!-- Project 1 -->
+     <div class="project">
+      <h2>Project 1: Coin Clicking Game</h2>
+      <p>
+        This is a mini coin clicking game utilizing HTML/CSS and JavaScript. The score will increase, and the coin drop speed will also increase every time the coin is being clicked.
+      </p>
+      <!-- Insert screenshot image here -->
+      <img src="/img/miniGame.jpg" alt="Mini Game Screenshot">
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project">
+      <h2>Project 2: CSV to JSON Converter</h2>
+      <p>
+        This is a simple HTML page using JavaScript to read CSV files and convert them to JSON format. The information is then generated into charts and graphs.
+      </p>
+      <!-- Insert screenshot image here -->
+      <img src="/img/csvToCharts.jpg" alt="CSV Converter Screenshot">
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project">
+      <h2>Project 3: Banking Application</h2>
+      <p>
+        This is a banking application created using C#. It uses abstract methods to demonstrate simple banking operations like withdraw and deposit. Final bank balances or error messages will be presented after each operation under specified conditions.
+      </p>
+      <!-- Insert screenshot image here -->
+      <img src="/img/bankingApp.jpg" alt="Banking Application Screenshot">
+    </div>
+    </div>
+    </main>
+    <!--bottom nav-->
+   
+   
+      <!--script section-->
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+   

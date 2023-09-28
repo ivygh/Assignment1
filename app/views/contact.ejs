@@ -1,0 +1,32 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+   
+
+<main class="container">
+  <link rel="stylesheet" href="/Content/style.css"/>
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to <%= title %> page</h1>
+    <p>Contact Us</p>
+    <div class="form-container">
+    <form method="post">
+      First Name: <input type="text" name="fname" id="fname"><br><br>
+      Last Name: <input type="text" name="lname" id="lname"><br><br>
+      Phone No: <input type="number" name="phone" id="phone"><br><br>
+      E-mail: <input type="text" name="email" id="email"><br><br>
+
+  <label for="comments">Comments:</label><br>
+  <textarea name="comments" id="comments" rows="4" cols="40"></textarea><br><br>
+  <input type="submit" value="Contact"> <input type="reset">
+    </form>
+  </div>
+    </div>
+    </main>
+    
+    <!--bottom nav-->
+    
+   
+   
+      <!--script section-->
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+   
